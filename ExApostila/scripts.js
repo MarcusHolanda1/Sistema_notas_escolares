@@ -69,8 +69,34 @@
     // }
 
 
-    exibirTipo(10);
+    // exibirTipo(10);
 
-    function exibirTipo(limite){
-        
-    }
+    // function exibirTipo(limite){
+    //     for (let i = 0; i <= limite; i++){
+    //         if (i % 2 === 0 ) {
+    //             console.log(i,'PAR')
+    //         }
+    //         else{
+    //             console.log(i,'IMPAR')
+    //         }
+    //     }
+    // }
+
+    // const filme = {
+    //     titulo: 'Vingadores',
+    //     ano: 2019, 
+    //     diretor: 'Viado',
+    //     personagem: 'Miranha'
+    // }
+
+    // exibirProperties(filme);
+    //     function exibirProperties(obj){
+    //         for (prop in obj){ 
+    //             if (typeof obj[prop] == 'string')
+    //             console.log(prop,obj[prop])
+    //         }
+    //     }
+
+
+    
+    
