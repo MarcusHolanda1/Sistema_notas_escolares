@@ -81,6 +81,49 @@
 
 // console.log(resultado)
 
-const myFunction = (parameter1, parameter2) => {
-    return ('Salveee', parameter1 + parameter2)
-}
+// const myFunction = (parameter1, parameter2) => {
+//     return ('Salveee', parameter1 + parameter2)
+// }
+
+// class Heroi {
+//     atacar() {
+//         console.log('atacou!')
+//     }
+//     defender() {
+//         console.log('defendeu!')
+//     }
+// }
+
+// const heroi = new Heroi()
+// heroi.atacar()
+// heroi.defender()
+
+// let frutaExistenteNoMercado = false
+// let temCPUSuficiente = true
+
+// const args = process.argv
+// const saldo = args[args.length -1]
+// console.log('args', args)
+// console.log('saldo', saldo)
+
+// const textPar = 'par'
+// const textImpar = 'impar'
+
+// for(let index = 0; index <= 10; index++){
+//     const decisao = index % 2 === 0 ? textPar : textImpar
+//     console.log(`O número ${index} é ${decisao}`)
+// }
+
+const dados = [
+    {
+        name: 'Artur',
+        idade: '19',
+        profissao: 'atleta'
+    }
+]
+
+// for (const item of dados){
+//     console.log(item.name)
+// }
+
+console.log(dados)
