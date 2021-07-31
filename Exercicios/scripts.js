@@ -20,3 +20,18 @@
 // }
 // console.log(getCharCount('Olá'))
 
+// function isPassing(grade) {
+//     return grade >= 10;
+// }
+// console.log(isPassing(1))
+
+function sumGrades(grades) {
+    grades.forEach(function(grade){
+        console.log(grade)
+    })
+    return 12
+}
+
+// Sample usage - do not modify
+console.log(sumGrades([15, 5, 10])); // 30
+console.log(sumGrades([12, 10, 13, 19])); // 54
