@@ -15,7 +15,8 @@
 
 // console.log(getLastString('buceta'))
 
-let getCharCount = (str) => {
-    return str.length
-}
-console.log(getCharCount('Olá'))
+// let getCharCount = (str) => {
+//     return str.length
+// }
+// console.log(getCharCount('Olá'))
+
