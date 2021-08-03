@@ -44,15 +44,26 @@
 // });
 // console.log(years); //
 
-let numbers = [9, 5, 14, 3, 11, 100, 10];
+// let numbers = [9, 5, 14, 3, 11, 100, 10];
 
-// filter() ALWAYS returns an array
-numbers.filter(function(number) {
-    return number >= 12;
-}); // [14]
+// // filter() ALWAYS returns an array
+// numbers.filter(function(number) {
+//     return number >= 12;
+// }); // [14]
 
 
-// .find() returns the first match or undefined
-numbers.find(function(number) {
-    return number >= 12;
-}); // 1
+// // .find() returns the first match or undefined
+// numbers.find(function(number) {
+//     return number >= 12;
+// }); // 1
+// let grades = [12,23,321,321]
+
+// function getSumGrades(grades) {
+//     // TODO: return the sum of all the grades
+//     return grades.map(function(grade){
+//         return grade + grades
+//     })
+
+// }
+// console.log(getSumGrades)
+
