@@ -21,23 +21,34 @@
 
 // const bola = 'cristal'
 
-const times = {
-     futebol: ['Chelsea', 'PSG', 'Juventus'],
-     nba: ['Warriors', 'Bucks', 'Hawks']
- }
+// const times = {
+//      futebol: ['Chelsea', 'PSG', 'Juventus'],
+//      nba: ['Warriors', 'Bucks', 'Hawks']
+//  }
 
-const times2 = {
-    beisebol: 'Não existe',
-    bola: 'jabulani'
-}
+// const times2 = {
+//     beisebol: 'Não existe',
+//     bola: 'jabulani'
+// }
 
-// const novoTime = Object.assign({}, times, times2)
-// console.log(novoTime)
+// // const novoTime = Object.assign({}, times, times2)
+// // console.log(novoTime)
 
-const novoTime2 = {
-    ...times, 
-    ...times2
-}
+// const novoTime2 = {
+//     ...times, 
+//     ...times2
+// }
 
-// Método expred, ele basicamente não deixa criar um objeto novo
-console.log(novoTime2)
+// // Método expred, ele basicamente não deixa criar um objeto novo
+// console.log(novoTime2)
+
+// const times = [{
+//     time1: 'Barcelona'
+// }, {
+//     time2: 'Real Madrid'
+// }, {
+//     time3: 'Sevilla'
+// }]
+
+// console.log(times[1].time2)
+
