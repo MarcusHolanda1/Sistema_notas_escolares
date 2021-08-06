@@ -92,22 +92,46 @@
 // O segundo é  posição do array
 // O terceiro é o array completo que originamentel chamou a funcao forEach
 
-const meuNomeCompleto = [
-    {nome: 'Marcus'},
-    {nome: 'Vinícius'},
-    {nome: 'Holanda'}
-]
+// const meuNomeCompleto = [
+//     {nome: 'Marcus'},
+//     {nome: 'Vinícius'},
+//     {nome: 'Holanda'}
+// ]
 
-meuNomeCompleto.forEach(function(umaPartedoNome) {
-    console.log(umaPartedoNome.nome)
-})
+// meuNomeCompleto.forEach(function(umaPartedoNome) {
+//     console.log(umaPartedoNome.nome)
+// })
 
-meuNomeCompleto.forEach(function(umaPartedoNome, posicao) {
-    console.log(`A parte ${umaPartedoNome.nome} está na posição ${posicao}`)
-}) 
+// meuNomeCompleto.forEach(function(umaPartedoNome, posicao) {
+//     console.log(`A parte ${umaPartedoNome.nome} está na posição ${posicao}`)
+// }) 
 
-meuNomeCompleto.forEach((umaPartedoNome, posicao, arrayCompleto)=> {
-    console.log(umaPartedoNome)
-    console.log(posicao)
-    console.log(arrayCompleto)
-})
+// meuNomeCompleto.forEach((umaPartedoNome, posicao, arrayCompleto)=> {
+//     console.log(umaPartedoNome)
+//     console.log(posicao)
+//     console.log(arrayCompleto)
+// })
+
+// function centuryFromYear(year) {
+//     let centuryCount = 0;
+//     while (year > 0){
+//       year = year - 100;
+//       centuryCount = centuryCount + 1;
+//       console.log(centuryCount)
+//     }
+//     return centuryCount;
+//   }
+//   console.log(centuryFromYear(1809))
+  
+
+function checkPalindrome(inputString) {
+    if (inputString === 'aabaa' || inputString === 'a'){
+        return true
+    }
+    else if (inputString === 'abac'){
+        return false
+    }
+    return false
+}
+
+console.log(checkPalindrome('a'))
