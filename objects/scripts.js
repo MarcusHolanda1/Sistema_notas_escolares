@@ -36,12 +36,12 @@
 // // console.log(novoTime)
 // console.log(times2)
 
+// // Método expred, ele basicamente não deixa criar um objeto novo
 // const novoTime2 = {
 //     ...times,
 //     ...times2
 // }
 
-// // Método expred, ele basicamente não deixa criar um objeto novo
 //  console.log(novoTime2)
 
 //  const times = [{
