@@ -135,3 +135,5 @@ function checkPalindrome(inputString) {
 }
 
 console.log(checkPalindrome('a'))
+
+
